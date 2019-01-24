@@ -1,14 +1,14 @@
 # Keras-Number-Recognition
 
-<B>Kaynaklar:</B>
+<B>Sources (Turkish):</B>
 http://erdoganb.com/2017/04/kerastensorflow-ile-rakamlari-tanima-mnist-dataset/
 https://medium.com/turkce/keras-ile-derin-%C3%B6%C4%9Frenmeye-giri%C5%9F-40e13c249ea8
 
-<B>Kullanımı:</B>
+<B>Using:</B>
 
-Eğitim için olan kısmı parametresiz çalıştırmanız yeterli, Mnist verisini internetten alıp, alınan veriye renkleri ters çevrilmiş hallerininde ekleyip (Doğruluk oranı ciddi miktarda arttı) eğitiyor.
+Training: You can run the part for training without parameters. The program takes Mnist data from the internet and adds the colors reversed to the received data (the accuracy rate has increased significantly) and starts training neural network.
 
-Var olan modeli kullanma ise, UsingModel.py ye bir resim konumunu parametre olarak gönderin çıktı olarak ağırlık değerlerini verecektir.
+Predict: Predicting with the trained model, Run UsingModel.py with a picture location as a parameter. than It will give the weight values as output.
 
-<B>Dikkat !!!</B>
-Tahmin için kullancağınız resim Tek Kanallı (Siyah-Beyaz) ve 28 x 28 boyutunda olmalıdır 
+<B>Be Careful !!!</B>
+Image to be used for prediction must be Single Channel (Black and White) and 28 x 28 resolution.
